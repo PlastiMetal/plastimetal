@@ -1,0 +1,23 @@
+detalle ingreso
+
+SELECT * FROM producto;
+
+DELIMITER $$
+CREATE TRIGGER tr_ingresostock AFTER INSERT ON detalle_ingreso
+FOR EACH ROW BEGIN
+	UPDATE producto SET stock = stock + NEW.cantidad
+    WHERE id = NEW.producto_id;
+END $$
+DELIMITER;
+
+
+
+detalle venta
+
+DELIMITER $$
+CREATE TRIGGER tr_ventastock AFTER INSERT ON detalle_venta
+FOR EACH ROW BEGIN
+	UPDATE producto SET stock = stock - NEW.cantidad
+    WHERE id = NEW.producto_id;
+END $$
+DELIMITER;

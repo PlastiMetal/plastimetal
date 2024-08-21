@@ -1,0 +1,41 @@
+/* Estilo básico para la sombra de la navegación */
+.nav-treeview .nav-item {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-treeview .nav-item:hover {
+background-color: #FFA500;
+    /* Naranja para el activo */
+    color: #FFFFFF;
+    /* Blanco para el texto */
+}
+
+/* Si deseas aplicar el sombreado a la navegación activa */
+.nav-treeview .nav-item.active {
+    background-color: #FFA500;
+        /* Naranja para el activo */
+        color: #FFFFFF;
+        /* Blanco para el texto */
+}.nav-link i {
+    color: #3b5998;
+    font-size: 24px;
+}
+
+.nav-link:hover i {
+    color: #ff0000;
+    transform: rotate(360deg);
+    transition: color 0.3s, transform 0.5s;
+}
+.custom-logout-btn {
+    background-color: #007bff;
+    /* Cambia el color de fondo a azul */
+    border-color: #007bff;
+    /* Cambia el color del borde a azul */
+}
+
+/* Opcional: Cambiar el color al pasar el cursor */
+.custom-logout-btn:hover {
+    background-color: #0056b3;
+    /* Un azul más oscuro */
+    border-color: #0056b3;
+}

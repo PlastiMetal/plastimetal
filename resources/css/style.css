@@ -1,0 +1,264 @@
+/* Custom styles */
+.navbar-brand span {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.quote_btn-container a {
+  background-color: #ffdd57;
+  color: #004999;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.quote_btn-container a:hover {
+  background-color: #f1c40f;
+}
+
+.slider_section {
+  background: linear-gradient(to right, #004999, #0066cc);
+  padding: 50px 0;
+}
+
+.slider_detail-box h1 {
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.info_section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.info_section h2 {
+  color: #004999;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info_section p {
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer_section {
+  color: #0c0c0c;
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.footer_section a:hover {
+  color: #0011ff;
+}
+
+.header_section {
+  background-color: #797777;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #00aaff;
+  background-color: transparent;
+  border-bottom: 2px solid #00aaff;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.quote_btn-container a {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.quote_btn-container a:hover {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+
+/*contactanos*/
+.navbar-brand span {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.quote_btn-container a {
+  background-color: #ffdd57;
+  color: #004999;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.quote_btn-container a:hover {
+  background-color: #f1c40f;
+}
+
+.slider_section {
+  background: linear-gradient(to right, #004999, #0066cc);
+  padding: 50px 0;
+}
+
+.slider_detail-box h1 {
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.info_section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.info_section h2 {
+  color: #004999;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info_section p {
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer_section c {
+
+  color: #000000;
+  background-color: #000000;
+  padding: 20px 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.footer_section a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.footer_section a:hover {
+  color: #0011ff;
+}
+
+.header_section {
+  background-color: #797777;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #00aaff;
+  background-color: transparent;
+  border-bottom: 2px solid #00aaff;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.quote_btn-container a {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.quote_btn-container a:hover {
+  background-color: #0088cc;
+  color: #fff;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
